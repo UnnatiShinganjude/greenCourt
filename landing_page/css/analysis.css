@@ -1,0 +1,28 @@
+/* Reset */
+body, html {
+    /* content: 'Analysis'; */
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for images */
+.image-container {
+    width: 80%; /* Adjust the width as needed */
+    max-width: 600px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style for individual images */
+.graph-image {
+    width: 90%; /* Makes each image responsive */
+    margin-bottom: 20px; /* Adds space between images */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

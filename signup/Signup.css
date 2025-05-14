@@ -1,0 +1,133 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap'); */
+
+body {
+    font-family: 'Forum', cursive;
+    margin: 0px;
+    margin-top: 50px;
+    font-weight: 800;
+    background-color: #D8F6BC; 
+    color: black; /* Text color for better contrast */
+    /* background:url(img13.jpg); */
+    background-size:cover;
+  background-position:right;
+  background-attachment:fixed;
+  /* border-left: 2px solid hsla(77, 98%, 25%, 1); */
+}
+h4{
+    font-family: 'Forum', cursive;
+}
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    margin-left: -5px;
+    margin-right: 15px;
+}
+
+.welcome-container {
+    margin-right: 110px;
+    margin-top: 160px ;
+    margin-left: 15px;
+    flex: 1; /* Take up available space */
+    padding: 20px;
+    text-align: center;
+}
+.signup-container {
+    width: 600px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px auto;
+    margin-right: -20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #555;
+}
+
+input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.signup-button {
+    background-color: hsla(77, 98%, 25%, 1); /* Darker shade of purple */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: rgb(60, 83, 1); /* Darker shade on hover */
+}
+
+p {
+    margin-top: 20px;
+    color: #555;
+}
+
+a {
+    color: white; /* Purple color for links */
+    text-decoration: none;
+    font-size: 17px;
+}
+
+a:hover {
+    color: white; /* Darker shade on hover */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+#red a{
+    color: hsla(77, 98%, 25%, 1);
+}
+
+#red a:hover{
+    color: rgb(54, 74, 5);
+}
+
+
+.typewriter h1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px ;
+    /* text-decoration: bold; */
+    letter-spacing: .05em;
+    animation: typing 4s steps(60, end), blink-caret .75s step-end infinite;
+}
+
+.typewriter p {
+    text-align: left;
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #fff; }
+}

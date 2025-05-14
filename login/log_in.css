@@ -1,0 +1,121 @@
+body {
+    font-family: 'Forum', cursive;
+    margin: 0;
+    margin-top: 50px;
+    background-color: #D8F6BC; 
+    color: #fff; /* Text color for better contrast */
+    /* background-image: url('/landing_page/images/Images/bowl-dal-makhani-with-visible-lentils-driz_1207919-23928.jpg'); */
+    }
+    .main-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; /* Adjust as needed */
+    margin: 0 auto;
+    margin-left: -5px;
+    margin-right: 15px;
+    }
+    .main-container::after {
+    content: "";
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 2px solid hsla(77, 98%, 25%, 1); /* Adjust the color as needed */
+    }
+    .welcome-container {
+    margin-right: 110px;
+    margin-top: 60px ;
+    flex: 1; /* Take up available space */
+    padding: 20px;
+    text-align: center;
+    }
+    .login-container {
+    width: 600px;
+    background-color: #fff;
+    max-width: 400px;
+    margin: 50px 0;
+    margin-right: -60px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    }
+    h2 {
+    color: #333;
+    }
+    form {
+    display: flex;
+    flex-direction: column;
+    }
+    label {
+    margin-top: 10px;
+    color: #555;
+    }
+    input {
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    .login-button {
+    background-color: hsla(77, 98%, 25%, 1); /* Darker shade of purple */
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    }
+    .login-button:hover {
+    background-color: rgb(39, 54, 0); /* Darker shade on hover */
+    }
+    .alternative-login {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #555;
+    }
+    .alternative-login-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    .circular-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    }
+    .google-button {
+    /* background-color: #4285f4; Google Blue */
+    color: #fff;
+    }
+    .google-button:hover {
+    background-color: hsla(77, 98%, 25%, 1); /* Darker shade on hover */
+    color: #fff; /* Text color on hover */
+    }
+    .microsoft-button {
+    /* background-color: #00a2ed; Microsoft Blue */
+    color: #fff;
+    }
+    .microsoft-button:hover {
+    background-color: hsla(77, 98%, 25%, 1); /* Darker shade on hover */
+    color: #fff; /* Text color on hover */
+    }
+    .apple-button {
+    /* background-color: #b6b6b6; Apple Grey */
+    color: #fff;
+    }
+    .apple-button:hover {
+    background-color: hsla(77, 98%, 25%, 1); /* Darker shade on hover */
+    color: #fff; /* Text color on hover */
+    }
+    

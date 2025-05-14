@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/menu/css/new.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="logo">Options</h2>
+        <div class="menu">
+            <button class="menu-cart">
+                <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 18 20">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 15a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm0 0h8m-8 0-1-4m9 4a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-9-4h10l2-7H3m2 7L3 4m0 0-.792-3H1"/>
+                </svg>
+                <span class="cart-count">0</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <div class="product-wrapper">
+                <div class="product" data-product="1">
+                    <img class="product-img" src="/menu/images/tea.jpg" alt="Tea">
+                    <h3 class="product-title">Tea</h3>
+                    <p class="product-price">₹50</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="2">
+                    <img class="product-img" src="/menu/images/filter_coffee.jfif" alt="Filter Coffee">
+                    <h3 class="product-title">Filter Coffee</h3>
+                    <p class="product-price">₹60</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="3">
+                    <img class="product-img" src="/menu/images/nescafe.jfif" alt="Nescafe">
+                    <h3 class="product-title">Nescafe</h3>
+                    <p class="product-price">₹70</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="4">
+                    <img class="product-img" src="/menu/images/milk.jfif" alt="Milk">
+                    <h3 class="product-title">Milk</h3>
+                    <p class="product-price">₹50</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="5">
+                    <img class="product-img" src="/menu/images/hot_chocolate.jfif" alt="Hot Chocolate">
+                    <h3 class="product-title">Hot Chocolate</h3>
+                    <p class="product-price">₹80</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="6">
+                    <img class="product-img" src="/menu/images/bournvita.jfif" alt="Bournvita">
+                    <h3 class="product-title">Bournvita</h3>
+                    <p class="product-price">₹75</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="7">
+                    <img class="product-img" src="/menu/images/mineral_water.jfif" alt="Mineral Water">
+                    <h3 class="product-title">Mineral Water</h3>
+                    <p class="product-price">₹30</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="8">
+                    <img class="product-img" src="/menu/images/butter_milk.jfif" alt="Butter Milk">
+                    <h3 class="product-title">Butter Milk</h3>
+                    <p class="product-price">₹40</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="9">
+                    <img class="product-img" src="/menu/images/soft_drinks.jfif" alt="Soft Drink">
+                    <h3 class="product-title">Soft Drink</h3>
+                    <p class="product-price">₹50</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="10">
+                    <img class="product-img" src="/menu/images/lassi.jfif" alt="Lassi (Sweet/Salty)">
+                    <h3 class="product-title">Lassi (Sweet/Salty)</h3>
+                    <p class="product-price">₹60</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="11">
+                    <img class="product-img" src="/menu/images/lime_water.jfif" alt="Fresh Lime Soda/Water">
+                    <h3 class="product-title">Fresh Lime Soda/Water</h3>
+                    <p class="product-price">₹50</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                <div class="product" data-product="12">
+                    <img class="product-img" src="/menu/images/mango_lassi.jfif" alt="Mango Lassi">
+                    <h3 class="product-title">Mango Lassi</h3>
+                    <p class="product-price">₹70</p>
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+                
+                <!-- Add more products as needed -->
+            </div>
+        </div>
+        
+        <div class="cart">
+            <h3 class="cart-title">Your Shopping Cart</h3>
+            <div class="cart-list">
+                <!--list items added from js later-->
+
+            </div>
+            <hr class="divider">
+
+            <div class="cart-action">
+                <div class="cart-amount" id="final-price">
+                    <span>Total</span>
+                    <span class="cart-amount-value" >₹0</span>
+                </div>
+                <button class="card-btn">PAY NOW</button>
+            </div>
+        </div>
+    </div>
+    <button id="scrollUpBtn" title="Scroll to top">↑</button>
+    <!--adding jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="/menu/js/new_cartfinal.js"></script>
+</body>
+</html>

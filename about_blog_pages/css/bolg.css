@@ -1,0 +1,610 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:  #D8F6BC;
+}
+
+.backgtound-image {
+    background-image: url('/landing_page/images/image3.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.bounce-heading {
+    display: inline-block;
+    font-size: 80px;
+    color: #D8F6BC;
+    font-style: italic;
+    font-weight: bolder;
+    animation: bounce 3s infinite ease-in-out;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(100px);
+    }
+    25% {
+        transform: translateY(40px);
+    }
+    50% {
+        transform: translateY(75px);
+    }
+    75% {
+        transform: translateY(40px);
+    }
+    100% {
+        transform: translateY(100px);
+    }
+}
+
+.heading {
+    margin-right: -1500px;
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px; /* Adjusted margin for better spacing */
+    padding-top: 270px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ 
+    text-align: center;
+    z-index: 1;
+ 
+    
+}
+
+/*----------------portfolio------------------*/
+.sub-title{
+    font-size: 20px;
+}
+#portfolio {
+    padding: 20px;
+}
+
+.sub-title {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 50px; /* Adjusted margin for better spacing */
+}
+
+.work-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work {
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.work img {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.layer {
+    width: 100%;
+    height: 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), hsla(77, 98%, 25%, 1));
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 20px; /* Adjusted padding */
+    text-align: center;
+    font-size: 20px;
+    transition: height 0.5s;
+    color: aliceblue;
+    text-align: center;
+}
+.para1{
+    text-align: center;
+    margin-right: 8%;
+}
+
+.layer h3 {
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.layer a {
+    margin-top: 20px;
+    color: hsla(77, 98%, 25%, 1);
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.work:hover img {
+    transform: scale(1.1);
+}
+
+.work:hover .layer {
+    height: 100%;
+}
+
+
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid hsla(77, 98%, 25%, 1);
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: hsla(77, 98%, 25%, 1);
+}
+
+.box-1{
+   
+    margin-top:200px;
+    width:100% ;
+}
+
+
+
+
+  .button {
+    display: inline-block;
+    padding: 10px 10px;
+    margin-right: 100px;
+    color: #D8F6BC;
+    text-decoration: none;
+
+  }
+
+  .button:hover {
+    background-color: #D8F6BC;
+}
+
+/*.box-1{
+
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+    
+}
+*/
+.t1{
+    text-align: center;
+    font-size: 300%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800%;
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-shadow: 100ch;
+}
+
+/*----------------------------main event--------*/
+
+.section{
+    width: 100%;
+    padding: 2rem 0 5rem;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-detail{
+    width:39%;
+    min-width: 300px;
+    margin-right: 14%; ;
+    margin-top:0%;
+    font-size: 200%;
+
+
+}
+
+.section-highlight{
+    padding: .5rem 1rem;
+    border-radius:.2rem ;
+    
+        background: rgba(46, 204, 113, 0.5); /* Example: semi-transparent green background */
+        color: #2c3e50; /* Example: dark gray text color */
+    
+    
+
+}
+
+.section-title{
+    margin: 2rem 0;
+    font-size: 4rem;
+}
+.section-info{
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section{
+    position: relative;
+    padding: 6rem 10vw;
+}
+
+.food-img-container{
+    transform: scale(1.1);
+}
+
+    .food-img1 {
+        min-width: 30rem;
+        min-height: 30rem;
+        position: relative;
+        transform: scale(0.9) translateY(1rem);
+    }
+
+.circle {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    border-radius: 100%; /* Ensure it forms a perfect circle */
+    transform: translate(-50%, -50%) scale(0.8); /* Center and scale the circle */
+    background: #ffffff; /* Circle background color */
+    border:.1rem solid #000000; /* Circle border color */
+}
+
+.circle span {
+    position: absolute;
+    width: .75rem;
+    height: .75rem;
+    border-radius: 100%;
+    background: #1b1c16;
+    transform: translate(-50%, -50%);
+}
+
+.circle span:nth-child(1) {
+    top: 0;
+    left: 50%;
+}
+
+.circle span:nth-child(2) {
+    bottom: 30%;
+    left: 3%;
+}
+
+.circle span:nth-child(3) {
+    top: 30%;
+    right: 1.5%;
+}
+
+.circle span:nth-child(4) {
+    top: 30%;
+    left: 4%;
+}
+
+.circle span:nth-child(5) {
+    bottom: 30%;
+    right: .5%;
+}
+
+.circle span:nth-child(6) {
+    bottom: -2.5%;
+    left: 50%;
+}
+
+.circle:nth-child(2) {
+    background-color: rgba(46, 204, 113, 0.5);
+    z-index: -1;
+    transform: translate(-50%, -50%) scale(1) rotate(100deg);
+}
+
+.food-img {
+    position: absolute;
+    border-radius: 100%;
+    box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.15);
+    transform: translate(-50%, -50%);
+    width: 10rem;
+}
+
+.food-img:nth-child(1) {
+    width: 20rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the first image */
+}
+
+/* Adjustments for the other images */
+.food-img:nth-child(2) {
+    width: 12rem;
+    top: 15%;
+    left: 100%;
+}
+
+.food-img:nth-child(3) {
+    width: 10rem;
+    top: 60%;
+    left: 107%;
+}
+
+.food-img:nth-child(4) {
+    width: 8rem;
+    top: 95%;
+    left: 80%;
+}
+
+.food-img:nth-child(5) {
+    width: 6rem;
+    top: 100%;
+    left: 40%;
+}
+
+.food-img:nth-child(6) {
+    width: 4rem;
+    top: 80%;
+    left: 10%;
+}
+
+.food-img:nth-child(7) {
+    width: 2rem;
+    top: 55%;
+    left: 0%;
+}
+
+/* Container for the grid */
+.resturent-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 5rem;
+}
+
+/* Styling for each restaurant/event block */
+.restro {
+    position: relative;
+    padding: 1rem;
+    border: 1px solid #1b1c16;
+    border-radius: 0.2rem;
+    overflow: hidden;
+    transition:  cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Styling for the image thumbnail */
+.thumnali {
+    position: relative;
+    width: 100%;
+    height: 15rem;
+    overflow: hidden;
+    border-radius: 0.5rem;
+}
+
+/* Styling for the image */
+.restro_img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+/* Hover effect for zoom on image */
+.restro:hover .restro_img {
+    transform: scale(1.1);
+}
+
+/* Styling for the text section */
+.resturent_body {
+    padding-top: 1rem;
+}
+
+.text1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.text2 {
+    font-size: 1rem;
+    color: #555;
+}
+/* Button styling */
+.event-button {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    margin-top: 1rem;
+    background-color: #1b1c16;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.event-button:hover {
+    background-color: #333;
+}
+
+
+/* chef info */
+
+/* Heading styling for "Our Team" */
+.chef h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.chef h1 span {
+    color: hsla(22, 97%, 51%, 1);
+    margin-left: 15px;
+    font-family: 'MV Boli', cursive; /* Using the 'MV Boli' font */
+}
+
+.chef h1 span::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: hsla(22, 97%, 51%, 1);
+    display: block;
+    position: relative;
+}
+
+/* Chef Box styling */
+.chef-box {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 13%;
+}
+
+/* Profile image container */
+.profile {
+    width: 320px;
+    height: 320px;
+    border-radius: 50%; /* Circular image */
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    transition: 0.4s;
+}
+
+.profile:hover {
+    border-radius: 20px;
+    height: 320px; /* Keep the height fixed when hovered */
+}
+
+/* Styling for the image */
+.profile img {
+    width: 50%;
+    height: 55%;
+  
+}
+
+/* Name and bio styling */
+.name {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.bio {
+    text-align: center;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Social icons styling */
+.team_icon {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.team_icon i {
+    font-size: 18px;
+    color: #333;
+    transition: color 0.3s;
+}
+
+.team_icon i:hover {
+    color: hsla(22, 97%, 51%, 1);
+}
+
+.profile img {
+    width: 200px;
+    height: 190px;
+    object-position: center;
+    border-radius: 50%; /* Initially circular */
+    cursor: pointer;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    transition: transform 0.4s, border-radius 0.4s; /* Smooth transition for both */
+    object-fit: cover;
+}
+
+/* Hover effect */
+.profile img:hover {
+    border-radius: 20px;  /* Changes to a rounded square */
+    transform: translateY(-50px);  /* Slides up by 30px */
+}
+
+.info{
+    position: absolute;
+    text-align: center;
+    top: 25%;
+    transition: 0.4s
+}
+.name{
+    color: hsla(22, 97%, 51%, 1);
+    margin-bottom: 15px;
+
+}
+
+.profile:hover .info{
+    top:60%;
+}
+
+.bio{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto 10px auto;
+}
+
+.team_icon{
+    margin: 10px 5px 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px ;
+    background: hsla(77, 98%, 25%, 1);
+    font-weight: 300;
+    margin-top: 80px;
+ 
+    color: aliceblue;
+    font-size: 150%;
+
+}
+.copyright i{
+    color: hsla(22, 97%, 51%, 1);
+}
